@@ -1,0 +1,20 @@
+.loginform{
+ border: 2px solid rgb(83, 32, 32);
+ padding: 20px;
+ margin-top: 90px;
+ background-color: rgb(20, 175, 144);
+ }
+#id{
+    font-family: Hobo Std;
+    text-decoration: underline;
+}
+body{
+    background-image:url(https://images6.alphacoders.com/123/1233563.jpg);
+    background-size: cover;
+}
+#WEL{
+    margin-top: 25%;
+    margin-left: 33%;
+    font-size: 75px;
+    font-family: Broadway;
+}

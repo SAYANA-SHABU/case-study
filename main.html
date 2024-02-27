@@ -12,42 +12,35 @@
     
   }
   #m{
-    color: black;
-    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    border: 1px solid rgb(114, 44, 44);
+    border-radius: .2cm;
+    background-color: rgb(34, 29, 180);
   }
   #f{
-    color: black;
-    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    background-color: rgb(34, 29, 180);
   }
   h1{
     font-family: Brush Script Std;
     padding: 15%;
   }
+  
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body style="background-image:url(https://png.pngtree.com/background/20210714/original/pngtree-beautiful-elegant-pink-red-purple-watercolor-smudge-background-picture-image_1220864.jpg) ;background-size: cover;">
-  
-  <nav class="navbar bg-body-tertiary"id="g"  >
-        <div class="container-fluid" >
+<body style="background-image:url(https://static.vecteezy.com/system/resources/previews/000/625/480/original/vector-abstract-geometric-background-in-light-colors.jpg) ;background-size: cover; ">
+  <nav  class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="m" onclick="getData()">MY TODOS</a>
+    <a  href="#" ></a>
+            <button class="btn btn-outline-success" id="f" type="submit">logout</button>
          
-          <ul class="nav justify-content-end" >
-            <li class="nav-item">
-             <button id="m" onclick="getdata()" >My Todos</button>
-                
-            </li>
-            <li class="nav-item">
-              
-              <a class="nav-link" href="# " id="f">Log Out</a>
-            </li>
-           
-        
-          </ul>
-       
-        </div>
     </nav>
-    <table id="tab"></table>
-    <h1>Courage is not the absence of fear, but action despite it.</h1>
+    <table id="th" border="2px" style="padding-left: 90px;"></table>
+    <h1 style="font-family: Lucida Handwriting;color: white;opacity: 56px;">Courage is not the absence of fear, but action despite it.</h1>
 <script src="login.js"></script>
 <script src="sub.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

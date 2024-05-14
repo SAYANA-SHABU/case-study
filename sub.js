@@ -68,5 +68,3 @@ function displaymsg() {
         alert(i)
     })
 }
-    )
-}
